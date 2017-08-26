@@ -8,8 +8,8 @@
 </div>
 
 
-![Python Version](https://img.shields.io/badge/python-2.7-blue.svg)
-![License](https://img.shields.io/badge/license-GPL-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+[![npm version](https://badge.fury.io/js/react.svg)](https://badge.fury.io/js/react)
 
 
 
@@ -19,48 +19,22 @@ Following instructions will get you to install Sir Basil and how to use it. See 
 
 ### Requirements
 
-Following are the requirements for getting the most out of DOT:
-
- - OS X Although people have made DOT work on other Systems, Mac OS X is the officially supported distribution, all new features are primarily tested on this platform.
-
-- [Homebrew](https://brew.sh) to download tor. (only needed when you don't have tor installed).
-
-**Install Homebrew:**
-```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
+Following are the requirements for getting the most out of Sir Basil:
 
 ### Installation
 
-To install the latest development version type the following commands:
+To install the latest version follow the instructions below:
 
-```bash
-git clone https://github.com/gert-janwille/dot.git # Download the latest revision
-cd dot # Switch to tool's directory
-sudo python setup.py install # Install any dependencies (Currently pexpect, future, youtube_dl, pubnub, tor)
-```
-Alternatively, you can download the latest stable version from the [Releases page](https://github.com/gert-janwille/dot/releases).
-
-If you want to make a default ssh connection, add in the Dot/dot folder a new file called `settings.py` and set the values:
-
-```python
-KALI_SERVER = <HOSTNAME>
-SSH_USER = <USERNAME>
-SSH_PASS = <PASSWORD>
-```
 
 ## Usage
 
-Run the tool by typing `dot` or `python bin/dot` (from inside the tool's directory).
-
-By running DOT without any options, it will start the DOT mainframe.
-Use `dot -t <TASK>` to start a task immediately
+...
 
 
 <br/>
 
 ### Main Functions
-These are all functions who can be use immediately or using the dot mainframe.
+These are all functions who can be use immediately or using the Sir Basil mainframe.
 
 <br/>
 
@@ -85,9 +59,8 @@ See also the list of [contributors](https://github.com/gert-janwille/Sir-Basil/c
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details
+This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE) file for details
 
 ## Acknowledgments
 
-* Love for [PubNub](https://www.pubnub.com)
-* Inspirated by [WifiPhisher](https://github.com/wifiphisher/wifiphisher)
+* Inspirated by [BarBot](https://github.com/sidlauskaslukas/barbot)
