@@ -1,0 +1,132 @@
+html {
+  background: #e6e6e6;
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100000;
+  background: #282226;
+}
+
+.logo-overlay {
+  width: 5rem;
+}
+
+.overlay-out {
+  right: 100vw;
+  animation: outscreen 1.2s ease-in;
+}
+
+@keyframes outscreen {
+    from {right: 0;}
+    to {right: 100vw;}
+}
+
+.logo {
+  opacity: 0;
+}
+
+.logo-visible {
+  opacity: 1;
+  animation: show 2s ease-out;
+}
+
+@keyframes show {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    75% {opacity: 0;}
+    100% {opacity: : 1;}
+}
+
+header {
+  margin: 2rem 0;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.app-holder {
+  display: flex;
+}
+
+nav {
+  position: fixed;
+  padding: 2rem 1rem;
+  width: 6rem;
+  height: 100vh;
+  background: #282226;
+}
+
+main {
+  width: 100%;
+  padding: 2rem 2rem 2rem 8rem;
+}
+
+.store-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.drink-item {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  flex-grow: 1;
+  color: #282226;
+  text-decoration: none;
+  width: 30rem;
+  margin: 2rem;
+  padding: 2rem;
+  max-width: 50rem;
+}
+
+.drink-item h1 {
+  font-weight: 900;
+  text-align: center;
+}
+
+.drink-item .ingredients {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 180%;
+  margin-bottom: .5rem;
+  text-align: center;
+}
+
+.drink-item .description {
+  font-family: Lora;
+  font-style: italic;
+  line-height: 160%;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.drink-item .order-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: black;
+  text-transform: uppercase;
+  color: white;
+  width: 60%;
+  height: 5rem;
+  margin-top: 3rem;
+}
