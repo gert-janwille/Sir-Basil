@@ -3,6 +3,7 @@
     <img width="250" heigth="250" src="https://raw.github.com/gert-janwille/Sir-Basil/master/docs/Sir-Basil.png">
   </a>
   <br/>
+  <h1>Sir Basil</h1>
   <p>
     Sir Basil is a bartender robot controlled with a node.js webapp using Bluetooth. It has been designed to hold up to 6 bottles for making cocktails. Choose a cocktails, make your own or just one drink. Sir Basil is the automated bartender you always wanted.
 </div>
