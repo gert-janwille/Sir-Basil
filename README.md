@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/gert-janwille/Sir-Basil">
-    <img width="250" heigth="250" src="https://raw.github.com/gert-janwille/Sir-Basil/master/docs/Sir-Basil.png">
+    <img width="250" heigth="250" src="https://raw.github.com/gert-janwille/Sir-Basil/master/docs/Sir-Basil-official.png">
   </a>
   <br/>
   <h1>Sir Basil</h1>
